@@ -1,0 +1,108 @@
+body,
+html {
+  height: 100%;
+}
+.cate-header {
+  width: 100%;
+  height: 44px;
+  background: url("../images/header-bg.png") repeat-x;
+  background-size: 2px 44px;
+  padding: 0 40px;
+  border-bottom: 1px solid #cccccc;
+  position: absolute;
+  z-index: 1;
+}
+.cate-header form {
+  width: 100%;
+}
+.cate-header form input {
+  border: 1px solid #cccccc;
+  height: 30px;
+  margin-top: 6px;
+  border-radius: 10px;
+  width: 100%;
+  padding-left: 10px;
+}
+.cate-header .icon-back {
+  position: absolute;
+  background: url("../images/sprites.png") no-repeat;
+  background-size: 200px 200px;
+  background-position: -20px 0;
+  top: 0;
+  left: 0;
+  background-origin: content-box;
+  background-clip: content-box;
+  height: 44px;
+  width: 40px;
+  padding: 12px 10px;
+}
+.cate-header .cate-menu {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background: url("../images/sprites.png") no-repeat;
+  background-size: 200px 200px;
+  background-position: -60px 0;
+  background-origin: content-box;
+  background-clip: content-box;
+  height: 44px;
+  width: 40px;
+  padding: 12px 10px;
+}
+.cate-main {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding-top: 44px;
+}
+.cate-main .cate-left {
+  float: left;
+  width: 90px;
+  height: 100%;
+}
+.cate-main .cate-left ul li {
+  height: 50px;
+  width: 90px;
+  line-height: 50px;
+  border-bottom: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  text-align: center;
+}
+.cate-main .cate-left ul .active {
+  border-right: 0;
+}
+.cate-main .cate-left ul .active a {
+  color: red;
+}
+.cate-main .cate-right {
+  padding: 10px;
+  overflow: hidden;
+  height: 100%;
+}
+.cate-main .cate-right a {
+  width: 100%;
+}
+.cate-main .cate-right a img {
+  width: 100%;
+}
+.cate-main .cate-right .hot-product {
+  width: 100%;
+}
+.cate-main .cate-right .hot-product h3 {
+  font-size: 12px;
+}
+.cate-main .cate-right .hot-product ul {
+  width: 100%;
+}
+.cate-main .cate-right .hot-product ul li {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.cate-main .cate-right .hot-product ul li a {
+  width: 100%;
+}
+.cate-main .cate-right .hot-product ul li a img {
+  width: 30%;
+}

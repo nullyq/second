@@ -1,0 +1,66 @@
+
+/*初始化*/
+*,*::before,*::after{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /*兼容*/
+    -webkit-box-sizing: border-box;
+}
+
+/*设置公共样式*/
+
+/*浮动*/
+.pull-left{
+    float: left;
+}
+.pull-right{
+    float: right;
+}
+/*清除浮动*/
+.clearfix::before,
+.clearfix::after{
+    content: "";
+    height: 0px;
+    line-height: 0px;
+    visibility: hidden;
+    display: block;
+    clear: both;
+}
+
+body{
+    font-size: 14px;
+    font-family: "Microsoft YaHei", sans-serif;
+}
+
+a{
+    color: #666666;
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+input{
+    border: none;
+    outline: none;
+    /*在移动前端去除表单默认的效果*/
+    -webkit-appearance: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,111 @@
+
+body,html{
+  height: 100%;
+}
+.cate-header{
+  width: 100%;
+  height: 44px;
+  background: url("../images/header-bg.png") repeat-x;
+  background-size: 2px 44px;
+  padding: 0 40px;
+  border-bottom: 1px solid #cccccc;
+  position: absolute;
+  z-index: 1;
+  form{
+    width: 100%;
+    input{
+      border: 1px solid #cccccc;
+      height: 30px;
+      margin-top: 6px;
+      border-radius: 10px;
+      width: 100%;
+      padding-left: 10px;
+    }
+  }
+  .icon-back{
+    position: absolute;
+    background:url("../images/sprites.png") no-repeat;
+    background-size: 200px 200px;
+    background-position:-20px 0 ;
+    top: 0;
+    left: 0;
+    background-origin: content-box;
+    background-clip: content-box;
+    height: 44px;
+    width: 40px;
+    padding: 12px 10px;
+  }
+  .cate-menu{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: url("../images/sprites.png") no-repeat;
+    background-size: 200px 200px;
+    background-position: -60px 0;
+    background-origin: content-box;
+    background-clip: content-box;
+    height: 44px;
+    width: 40px;
+    padding: 12px 10px;
+  }
+}
+
+.cate-main{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding-top: 44px;
+  .cate-left{
+    float: left;
+    width: 90px;
+    height: 100%;
+    ul{
+      li{
+        height: 50px;
+        width: 90px;
+        line-height: 50px;
+        border-bottom: 1px solid #cccccc;
+        border-right: 1px solid #cccccc;
+        text-align: center;
+      }
+      .active{
+        border-right: 0;
+        a{
+          color: red;
+        }
+      }
+    }
+  }
+  .cate-right{
+    padding: 10px;
+    overflow: hidden;
+    height: 100%;
+    a{
+      width: 100%;
+      img{
+        width: 100%;
+      }
+    }
+    .hot-product{
+      width: 100%;
+      h3{
+        font-size: 12px;
+      }
+      ul{
+        width: 100%;
+        li{
+          float: left;
+          width: 33.33%;
+          text-align: center;
+          margin-bottom: 5px;
+          a{
+            width: 100%;
+            img{
+              width: 30%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
